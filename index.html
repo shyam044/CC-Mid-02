@@ -324,54 +324,104 @@
             </li>
         </ul>
     </div>
-        <header>
+    <header>
         CC Mid-02
     </header>
 
     <div class="container">
-    <h2>4) Block Storage Model</h2>
+        <h2>4) Block Storage Model</h2>
+
+        <ul>
+            <li>Block Storage Model is used for storing and organizing data efficiently.</li>
+            <li>It divides data into fixed-sized units called blocks.</li>
+            <li>Block Storage Model supports read or write operations.</li>
+            <img src="WhatsApp Image 2025-11-02 at 14.57.33_08ecda48.jpg" />
+            <li>Example:
+                <ul>
+                    <li>Amazon EBS</li>
+                    <li>EBS stands for Elastic Block Store</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Key Features of Block Storage Model:</h3>
+        <ul>
+            <li><strong>Independent Blocks:</strong>
+                <ul>
+                    <li>Each block stores and modifies the data independently without affecting other blocks.</li>
+                </ul>
+            </li>
+            <li><strong>High Performance:</strong>
+                <ul>
+                    <li>Provides fast access to data with minimal delay.</li>
+                </ul>
+            </li>
+            <li><strong>Scalability and Flexibility</strong></li>
+            <li><strong>Data Protection:</strong>
+                <ul>
+                    <li>The data is shared across multiple cloud servers.</li>
+                    <li>If one server fails, the data is still safe in the other servers.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Advantages of Block Storage Model:</h3>
+        <ul>
+            <li>Improves data access speed.</li>
+            <li>Supports custom file system.</li>
+            <li>Scalability.</li>
+            <li>Flexibility.</li>
+            <li>Reliability.</li>
+        </ul>
+    </div>
+    <header>
+    CC Mid-02
+</header>
+
+<div class="container">
+    <h2>5) Distributed File System</h2>
 
     <ul>
-        <li>Block Storage Model is used for storing and organizing data efficiently.</li>
-        <li>It divides data into fixed-sized units called blocks.</li>
-        <li>Block Storage Model supports read or write operations.</li>
-        <img src="WhatsApp Image 2025-11-02 at 14.57.33_08ecda48.jpg"/>
-        <li>Example:
-            <ul>
-                <li>Amazon EBS</li>
-                <li>EBS stands for Elastic Block Store</li>
-            </ul>
-        </li>
-    </ul>
+        <li>DFS stands for <strong>Distributed File System</strong></li>
+        <li>In a Distributed File System, files are stored across multiple servers and appear as a single file system to the users.</li>
+        <img src="WhatsApp Image 2025-11-02 at 15.45.25_a67d02d1.jpg"/>    
+   </ul>
 
-    <h3>Key Features of Block Storage Model:</h3>
-    <ul>
-        <li><strong>Independent Blocks:</strong>
-            <ul>
-                <li>Each block stores and modifies the data independently without affecting other blocks.</li>
-            </ul>
-        </li>
-        <li><strong>High Performance:</strong>
-            <ul>
-                <li>Provides fast access to data with minimal delay.</li>
-            </ul>
-        </li>
-        <li><strong>Scalability and Flexibility</strong></li>
-        <li><strong>Data Protection:</strong>
-            <ul>
-                <li>The data is shared across multiple cloud servers.</li>
-                <li>If one server fails, the data is still safe in the other servers.</li>
-            </ul>
-        </li>
-    </ul>
+    <h3>Key Features of DFS:</h3>
+    <div class="subsection">
+        <h4>i) Transparency:</h4>
+        <ul>
+            <li>The user can access the files without knowing the storage location.</li>
+        </ul>
 
-    <h3>Advantages of Block Storage Model:</h3>
+        <h4>ii) Resource Sharing:</h4>
+        <ul>
+            <li>Multiple users share files, hardware, and software applications easily.</li>
+            <li>It reduces the duplication of resources.</li>
+        </ul>
+
+        <h4>iii) High Performance:</h4>
+        <ul>
+            <li>Provides fast access to the files with minimal delay.</li>
+        </ul>
+
+        <h4>iv) Scalability:</h4>
+        <ul>
+            <li>DFS increases scalability by adding new servers to the system.</li>
+        </ul>
+
+        <h4>v) Availability & Reliability:</h4>
+        <ul>
+            <li>Cloud systems store files at different locations around the world.</li>
+            <li>If one server fails, the files are still safe on other servers, which makes it more reliable and highly available.</li>
+        </ul>
+    </div>
+
+    <h3>Example:</h3>
     <ul>
-        <li>Improves data access speed.</li>
-        <li>Supports custom file system.</li>
-        <li>Scalability.</li>
-        <li>Flexibility.</li>
-        <li>Reliability.</li>
+        <li>NFS (Network File System)</li>
+        <li>AFS (Andrew File System)</li>
+        <li>GFS (Google File System)</li>
     </ul>
 </div>
 
@@ -379,4 +429,3 @@
 </body>
 
 </html>
-
