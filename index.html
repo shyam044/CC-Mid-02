@@ -2,319 +2,381 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CC Mid-02 - Questions</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CC Mid-02 - Questions</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-      font-size: 1rem;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            font-size: 1rem;
+        }
 
-    /* Header styling */
-    header {
-      background-color: #0077cc;
-      color: white;
-      padding: 1rem 0.5rem;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
+        /* Header styling */
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 1rem 0.5rem;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
 
-    /* Container */
-    .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-      page-break-after: always;
-    }
+        /* Container */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            page-break-after: always;
+        }
 
-    /* Headings */
-    h2 {
-      color: #0077cc;
-      margin: 2rem 0 1rem;
-      font-size: 1.6rem;
-    }
+        /* Headings */
+        h2 {
+            color: #0077cc;
+            margin: 2rem 0 1rem;
+            font-size: 1.6rem;
+        }
 
-    h3 {
-      color: #444;
-      margin-top: 0.8rem;
-      margin-bottom: 0.5rem;
-      font-size: 1.3rem;
-    }
+        h3 {
+            color: #444;
+            margin-top: 0.8rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
 
-    /* Paragraphs */
-    p {
-      margin: 0.5rem 0;
-    }
+        /* Paragraphs */
+        p {
+            margin: 0.5rem 0;
+        }
 
-    /* Lists */
-    ul {
-      margin: 0.3rem 0 1rem 1rem;
-      padding-left: 1rem;
-    }
+        /* Lists */
+        ul {
+            margin: 0.3rem 0 1rem 1rem;
+            padding-left: 1rem;
+        }
 
-    li>ul {
-      margin-top: 0.3rem;
-      margin-bottom: 0.6rem;
-      padding-left: 0.7rem;
-    }
+        li>ul {
+            margin-top: 0.3rem;
+            margin-bottom: 0.6rem;
+            padding-left: 0.7rem;
+        }
 
-    li>ul>li {
-      margin-bottom: 0.4rem;
-    }
+        li>ul>li {
+            margin-bottom: 0.4rem;
+        }
 
-    /* Images */
-    img {
-      display: block;
-      max-width: 80%;
-      height: auto;
-      margin: 1rem auto;
-      border-radius: 6px;
-    }
+        /* Images */
+        img {
+            display: block;
+            max-width: 80%;
+            height: auto;
+            margin: 1rem auto;
+            border-radius: 6px;
+        }
 
-    /* Responsive styles */
-    @media (max-width: 768px) {
-      body {
-        font-size: 0.95rem;
-      }
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            body {
+                font-size: 0.95rem;
+            }
 
-      header {
-        font-size: 1.3rem;
-        padding: 0.8rem 0.5rem;
-      }
+            header {
+                font-size: 1.3rem;
+                padding: 0.8rem 0.5rem;
+            }
 
-      .container {
-        padding: 0.9rem;
-        margin: 1.5rem auto;
-      }
+            .container {
+                padding: 0.9rem;
+                margin: 1.5rem auto;
+            }
 
-      h2 {
-        font-size: 1.3rem;
-        margin-top: 1.8rem;
-      }
+            h2 {
+                font-size: 1.3rem;
+                margin-top: 1.8rem;
+            }
 
-      h3 {
-        font-size: 1.1rem;
-        margin-top: 0.7rem;
-      }
+            h3 {
+                font-size: 1.1rem;
+                margin-top: 0.7rem;
+            }
 
-      ul {
-        margin-left: 0.5rem;
-        padding-left: 0.7rem;
-      }
+            ul {
+                margin-left: 0.5rem;
+                padding-left: 0.7rem;
+            }
 
-      li>ul {
-        margin-top: 0.2rem;
-        margin-bottom: 0.4rem;
-        padding-left: 0.5rem;
-      }
+            li>ul {
+                margin-top: 0.2rem;
+                margin-bottom: 0.4rem;
+                padding-left: 0.5rem;
+            }
 
-      li>ul>li {
-        margin-bottom: 0.3rem;
-      }
+            li>ul>li {
+                margin-bottom: 0.3rem;
+            }
 
-      ul li {
-        font-size: 0.95rem;
-        line-height: 1.3rem;
-      }
-    }
+            ul li {
+                font-size: 0.95rem;
+                line-height: 1.3rem;
+            }
+        }
 
-    /* Print styles */
-    @media print {
-      .container {
-        page-break-after: always;
-      }
-    }
-    .subheading {
-  margin-left: 1.5rem; /* Indent subheadings to the right */
-}
-@media (max-width: 768px) {
-  .subheading {
-    margin-left: 1rem; /* Smaller indent for mobile */
-  }
-}
-.subsection {
-  margin-left: 1.5rem; /* Indent all subheadings and content */
-}
+        /* Print styles */
+        @media print {
+            .container {
+                page-break-after: always;
+            }
+        }
 
-.subsection h4 {
-  margin-left: 0; /* Keep subheading itself aligned with its content */
-}
-@media (max-width: 768px) {
-  .subsection {
-    margin-left: 1rem; /* Mobile-friendly indent */
-  }
-}
+        .subheading {
+            margin-left: 1.5rem;
+            /* Indent subheadings to the right */
+        }
 
+        @media (max-width: 768px) {
+            .subheading {
+                margin-left: 1rem;
+                /* Smaller indent for mobile */
+            }
+        }
 
-  </style>
+        .subsection {
+            margin-left: 1.5rem;
+            /* Indent all subheadings and content */
+        }
+
+        .subsection h4 {
+            margin-left: 0;
+            /* Keep subheading itself aligned with its content */
+        }
+
+        @media (max-width: 768px) {
+            .subsection {
+                margin-left: 1rem;
+                /* Mobile-friendly indent */
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <!-- CC Mid-02 -->
-  <header>
-    CC Mid-02
-  </header>
+    <!-- CC Mid-02 -->
+    <header>
+        CC Mid-02
+    </header>
 
-  <div class="container">
-    <h2>1) SOA Enables Interoperability and Integration Between Different Systems and Technologies</h2>
+    <div class="container">
+        <h2>1) SOA Enables Interoperability and Integration Between Different Systems and Technologies</h2>
 
-    <ul>
-      <li>SOA is designed to enable interoperability and integration between different systems and technologies</li>
-      <li>SOA stands for <strong>Service Oriented Architecture</strong></li>
-      <li>SOA is a way to build software using small parts called <strong>Services</strong></li>
-      <li>SOA supports loose coupling, meaning services can work independently</li>
-      <li>Each service does one job and can be reused in other programs</li>
-      <li>Each service communicates with other services by using standard protocols like:
         <ul>
-          <li>HTTP</li>
-          <li>XML</li>
-          <li>SOAP</li>
-          <li>REST</li>
+            <li>SOA is designed to enable interoperability and integration between different systems and technologies
+            </li>
+            <li>SOA stands for <strong>Service Oriented Architecture</strong></li>
+            <li>SOA is a way to build software using small parts called <strong>Services</strong></li>
+            <li>SOA supports loose coupling, meaning services can work independently</li>
+            <li>Each service does one job and can be reused in other programs</li>
+            <li>Each service communicates with other services by using standard protocols like:
+                <ul>
+                    <li>HTTP</li>
+                    <li>XML</li>
+                    <li>SOAP</li>
+                    <li>REST</li>
+                </ul>
+            </li>
+            <li>There are two major roles in SOA:
+                <ul>
+                    <li><strong>Service Provider</strong> – Creates and publishes services</li>
+                    <li><strong>Service Consumer</strong> – Finds and uses services</li>
+                </ul>
+            </li>
         </ul>
-      </li>
-      <li>There are two major roles in SOA:
+
+        <p><strong>SOA Roles Diagram:</strong></p>
+        <!-- Add your image source below -->
+        <img src="service role.png" alt="SOA Roles Diagram" />
+    </div>
+    <header>
+        CC Mid-02
+    </header>
+
+    <div class="container">
+        <h2>2) Key Challenges to Maintain Stability in Two-Level Resource Architecture</h2>
+        <img src="WhatsApp Image 2025-11-02 at 14.26.25_d0afba19.jpg" />
+
         <ul>
-          <li><strong>Service Provider</strong> – Creates and publishes services</li>
-          <li><strong>Service Consumer</strong> – Finds and uses services</li>
+            <li>Two-level resource architecture uses two controllers:
+                <ul>
+                    <li>Application-level controller</li>
+                    <li>Cloud-level controller</li>
+                </ul>
+            </li>
+            <li>Application-level Controller:
+                <ul>
+                    <li>It manages Local Resources.</li>
+                    <li>It allocates the resources based on the demand.</li>
+                </ul>
+            </li>
+            <li>Cloud-level Controller:
+                <ul>
+                    <li>It manages Global Resources.</li>
+                    <li>It allocates the resources based on the app request.</li>
+                </ul>
+            </li>
         </ul>
-      </li>
-    </ul>
 
-    <p><strong>SOA Roles Diagram:</strong></p>
-    <!-- Add your image source below -->
-    <img src="service role.png" alt="SOA Roles Diagram" />
-  </div>
-  <header>
-    CC Mid-02
-  </header>
+        <h3>Stability in a Two-Level Resource Allocation Architecture:</h3>
+        <ul>
+            <li>Stability depends upon the coordination between the Application-Level Controller and Cloud-Level
+                Controller.</li>
+        </ul>
 
- <div class="container">
-  <h2>2) Key Challenges to Maintain Stability in Two-Level Resource Architecture</h2>
-  <img src="WhatsApp Image 2025-11-02 at 14.26.25_d0afba19.jpg"/>
+        <div class="subsection">
+            <h4>Coordination Between Levels:</h4>
+            <ul>
+                <li>Maintains synchronization between the Application-Level Controller and Cloud-Level Controller.</li>
+            </ul>
 
-  <ul>
-    <li>Two-level resource architecture uses two controllers:
-      <ul>
-        <li>Application-level controller</li>
-        <li>Cloud-level controller</li>
-      </ul>
-    </li>
-    <li>Application-level Controller:
-      <ul>
-        <li>It manages Local Resources.</li>
-        <li>It allocates the resources based on the demand.</li>
-      </ul>
-    </li>
-    <li>Cloud-level Controller:
-      <ul>
-        <li>It manages Global Resources.</li>
-        <li>It allocates the resources based on the app request.</li>
-      </ul>
-    </li>
-  </ul>
+            <h4>Feedback Mechanism:</h4>
+            <ul>
+                <li>Continuously monitors the system performance.</li>
+                <li>Uses feedback to automatically adjust the resources.</li>
+            </ul>
 
-  <h3>Stability in a Two-Level Resource Allocation Architecture:</h3>
-  <ul>
-    <li>Stability depends upon the coordination between the Application-Level Controller and Cloud-Level Controller.</li>
-  </ul>
+            <h4>Dynamic Threshold:</h4>
+            <ul>
+                <li><strong>Scale Up:</strong> Add resources when CPU usage is too high.</li>
+                <li><strong>Scale Down:</strong> Remove resources when CPU usage is too low.</li>
+            </ul>
+        </div>
+    </div>
 
-  <div class="subsection">
-    <h4>Coordination Between Levels:</h4>
+    <header>
+        CC Mid-02
+    </header>
+    <div class="container">
+        <h2>3) Best Practices for Optimizing Cost Efficiency and Resource Allocation in the Cloud</h2>
+
+        <ul>
+            <li><strong>Resource Check:</strong>
+                <ul>
+                    <li>The system checks if enough resources are available before starting a task.</li>
+                    <li>If resources are available, the task is accepted; otherwise, it is rejected.</li>
+                </ul>
+            </li>
+
+            <li><strong>Resource Allocation:</strong>
+                <ul>
+                    <li>Distributes workloads across multiple servers to prevent overloading.</li>
+                    <li>Improves performance and avoids bottlenecks.</li>
+                </ul>
+            </li>
+
+            <li><strong>Load Balancing:</strong>
+                <ul>
+                    <li>Load Balancing Algorithm is a technique for distributing the workloads across multiple servers.
+                    </li>
+                    <li>Types of Load Balancing Algorithms:
+                        <ul>
+                            <li>Static Load Balancing Algorithm</li>
+                            <li>Dynamic Load Balancing Algorithm</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><strong>Power Saving:</strong>
+                <ul>
+                    <li>Runs tasks on fewer servers to save power.</li>
+                    <li>Puts idle servers in sleep mode.</li>
+                    <li>Reduces power consumption and cost.</li>
+                </ul>
+            </li>
+
+            <li><strong>Scheduling:</strong>
+                <ul>
+                    <li>Resources like CPU time and bandwidth are shared among virtual machines using scheduling
+                        algorithms.</li>
+                    <li>Common Algorithms:
+                        <ul>
+                            <li>Round Robin Algorithm</li>
+                            <li>Shortest Job First Algorithm</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><strong>Dynamic Scaling:</strong>
+                <ul>
+                    <li><strong>Scale Up:</strong> Add resources when CPU usage is high.</li>
+                    <li><strong>Scale Down:</strong> Remove resources when CPU usage is low.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+        <header>
+        CC Mid-02
+    </header>
+
+    <div class="container">
+    <h2>4) Block Storage Model</h2>
+
     <ul>
-      <li>Maintains synchronization between the Application-Level Controller and Cloud-Level Controller.</li>
-    </ul>
-
-    <h4>Feedback Mechanism:</h4>
-    <ul>
-      <li>Continuously monitors the system performance.</li>
-      <li>Uses feedback to automatically adjust the resources.</li>
-    </ul>
-
-    <h4>Dynamic Threshold:</h4>
-    <ul>
-      <li><strong>Scale Up:</strong> Add resources when CPU usage is too high.</li>
-      <li><strong>Scale Down:</strong> Remove resources when CPU usage is too low.</li>
-    </ul>
-  </div>
-</div>
-
-  <header>
-    CC Mid-02
-  </header>
-<div class="container">
-  <h2>3) Best Practices for Optimizing Cost Efficiency and Resource Allocation in the Cloud</h2>
-
-  <ul>
-    <li><strong>Resource Check:</strong>
-      <ul>
-        <li>The system checks if enough resources are available before starting a task.</li>
-        <li>If resources are available, the task is accepted; otherwise, it is rejected.</li>
-      </ul>
-    </li>
-
-    <li><strong>Resource Allocation:</strong>
-      <ul>
-        <li>Distributes workloads across multiple servers to prevent overloading.</li>
-        <li>Improves performance and avoids bottlenecks.</li>
-      </ul>
-    </li>
-
-    <li><strong>Load Balancing:</strong>
-      <ul>
-        <li>Load Balancing Algorithm is a technique for distributing the workloads across multiple servers.</li>
-        <li>Types of Load Balancing Algorithms:
-          <ul>
-            <li>Static Load Balancing Algorithm</li>
-            <li>Dynamic Load Balancing Algorithm</li>
-          </ul>
+        <li>Block Storage Model is used for storing and organizing data efficiently.</li>
+        <li>It divides data into fixed-sized units called blocks.</li>
+        <li>Block Storage Model supports read or write operations.</li>
+        <img src="WhatsApp Image 2025-11-02 at 14.57.33_08ecda48.jpg"/>
+        <li>Example:
+            <ul>
+                <li>Amazon EBS</li>
+                <li>EBS stands for Elastic Block Store</li>
+            </ul>
         </li>
-      </ul>
-    </li>
+    </ul>
 
-    <li><strong>Power Saving:</strong>
-      <ul>
-        <li>Runs tasks on fewer servers to save power.</li>
-        <li>Puts idle servers in sleep mode.</li>
-        <li>Reduces power consumption and cost.</li>
-      </ul>
-    </li>
-
-    <li><strong>Scheduling:</strong>
-      <ul>
-        <li>Resources like CPU time and bandwidth are shared among virtual machines using scheduling algorithms.</li>
-        <li>Common Algorithms:
-          <ul>
-            <li>Round Robin Algorithm</li>
-            <li>Shortest Job First Algorithm</li>
-          </ul>
+    <h3>Key Features of Block Storage Model:</h3>
+    <ul>
+        <li><strong>Independent Blocks:</strong>
+            <ul>
+                <li>Each block stores and modifies the data independently without affecting other blocks.</li>
+            </ul>
         </li>
-      </ul>
-    </li>
+        <li><strong>High Performance:</strong>
+            <ul>
+                <li>Provides fast access to data with minimal delay.</li>
+            </ul>
+        </li>
+        <li><strong>Scalability and Flexibility</strong></li>
+        <li><strong>Data Protection:</strong>
+            <ul>
+                <li>The data is shared across multiple cloud servers.</li>
+                <li>If one server fails, the data is still safe in the other servers.</li>
+            </ul>
+        </li>
+    </ul>
 
-    <li><strong>Dynamic Scaling:</strong>
-      <ul>
-        <li><strong>Scale Up:</strong> Add resources when CPU usage is high.</li>
-        <li><strong>Scale Down:</strong> Remove resources when CPU usage is low.</li>
-      </ul>
-    </li>
-  </ul>
+    <h3>Advantages of Block Storage Model:</h3>
+    <ul>
+        <li>Improves data access speed.</li>
+        <li>Supports custom file system.</li>
+        <li>Scalability.</li>
+        <li>Flexibility.</li>
+        <li>Reliability.</li>
+    </ul>
 </div>
 
 
 </body>
 
 </html>
+
